@@ -30,7 +30,7 @@ setInterval(() => {
     const days = Math.floor((endTime / (1000 * 60 * 60 * 24)) - (nowTime / (1000 * 60 * 60 * 24)));
     const hours = Math.floor((endTime / (1000 * 60 * 60) - nowTime / (1000 * 60 * 60)) % 24);
 
-    const minutes = Math.floor(endTime / (1000 * 60) - nowTime / (1000 * 60) % 60)
+    const minutes = Math.floor((endTime / (1000 * 60) - nowTime / (1000 * 60)) % 60);
 
     const sec = Math.floor((endTime / 1000 - nowTime / 1000) % 60);
 

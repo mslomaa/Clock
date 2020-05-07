@@ -7,15 +7,22 @@
 body {
     width: 100vw;
     height: 100vh;
+    text-align: center;
 }
 
 div {
-    line-height: 100vh;
+    /* line-height: 100vh; */
     text-align: center;
     font-size: 50px;
-    
+
 }
 
 span {
     font-weight: bold;
+}
+p {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 40px;
+    text-transform: uppercase;
 }
